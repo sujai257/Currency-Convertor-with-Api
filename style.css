@@ -1,0 +1,81 @@
+/* Set background color */
+body {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container box */
+.container-box {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #c0392b;
+    /* Red border */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    background-color: #222;
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Style the row and columns */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    padding: 0 10px;
+}
+
+/* Style the currency select inputs and result field */
+.currency,
+.input_data,
+#box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    margin-bottom: 10px;
+    min-height: 40px;
+    box-sizing: border-box;
+}
+
+.currency:focus,
+.input_data:focus,
+#box:focus {
+    background-color: #444;
+    outline: none;
+}
+
+/* Style the "Convert" button */
+#click {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#click:hover {
+    background-color: #c0392b;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container-box {
+        padding: 15px;
+    }
+}

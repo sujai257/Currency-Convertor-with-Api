@@ -11,7 +11,7 @@ function display(data) {
   }
 }
 
-click.addEventListener("click", function () {
+document.addEventListener("click", function () {
   let source_currency = document.getElementById("source").value;
   let target_currency = document.getElementById("target").value;
   let input = document.getElementById("inp").value;
